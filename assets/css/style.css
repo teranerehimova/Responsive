@@ -1,0 +1,129 @@
+@import url(./layout.css);
+@import url(./responsive.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.container .headeRow {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signupSecondary .signup {
+    color: #2D2D2D;
+}
+
+.signupSecondary .secondary {
+    background-color: #5F9CFF;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: 1px solid #5F9CFF;
+    transition: all 0.5s;
+}
+
+.signupSecondary .secondary:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #5F9CFF;
+}
+
+main {
+    background-color: #EEF2FF;
+    padding: 30px 0;
+}
+
+main .left,
+main .right {
+    width: 50%;
+}
+
+.mainRow .left h1 {
+    font-size: 80px;
+    line-height: 90px;
+    width: 6ch;
+}
+
+.mainRow .left p {
+    font-weight: 200;
+    width: 60%;
+    margin: 20px 0;
+}
+
+.mainRow .left .Primary {
+    display: inline-block;
+    background-color: #F268A9;
+    color: white;
+    border-radius: 50px;
+    padding: 15px 50px;
+    transition: all 0.5s;
+}
+
+.mainRow .left .CTA {
+    display: inline-block;
+    border: 2px solid #C4C4C4;
+    background-color: #EEF2FF;
+    color: black;
+    padding: 15px 70px;
+    border-radius: 50px;
+    margin-left: 20px;
+    transition: all 0.5s;
+}
+
+.mainRow .left .Primary:hover {
+    background-color: white;
+    color: #F268A9;
+    border: 1px solid#F268A9;
+}
+
+.mainRow .left .CTA:hover {
+    background-color: black;
+    color: #EEF2FF;
+}
+
+.mainRow .right img {
+    width: 500px;
+    height: 400px;
+    float: right;
+}
+
+@media (max-width:992px) {
+    .container .mainRow {
+        flex-wrap: wrap;
+    }
+
+    .mainRow .left h1 {
+        width: 100%;
+    }
+
+    main .left,
+    main .right {
+        width: 100%;
+    }
+
+
+    .mainRow .right img {
+        float: none;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .mainRow .right img {
+        width: 100%;
+    }
+}
