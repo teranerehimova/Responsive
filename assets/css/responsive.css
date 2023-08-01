@@ -1,0 +1,67 @@
+@media (max-width: 992px) {
+    .mainRow {
+        flex-wrap: wrap;
+    }
+
+    main .mainRow .left,
+    main .mainRow .right {
+        width: 100%;
+    }
+
+    main .mainRow .right img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .mainRow .left h1 {
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .mainRow .left p {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .mainRow .left .Primary {
+        margin-left: 180px;
+    }
+
+    .Feature {
+        flex-wrap: wrap;
+    }
+
+    .Feature .featureBox {
+        width: 48.5%;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainRow .left .CTA {
+        margin-top: 20px;
+        margin-left: 170px !important;
+    }
+
+    .CompaniesRow {
+        flex-wrap: wrap;
+    }
+
+    .CompaniesRow div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .CompaniesRow div img {
+        padding: 20px 0;
+    }
+
+    .Feature {
+        flex-wrap: wrap;
+    }
+
+    .Feature .featureBox {
+        width: 100%;
+        padding: 20px 0;
+    }
+}
